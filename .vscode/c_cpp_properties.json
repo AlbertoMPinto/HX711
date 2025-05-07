@@ -1,0 +1,62 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "f:/~GitHub/HX711/src",
+                "f:/~GitHub/HX711/examples/HX711_basic_example",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/variants/standard",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "f:/~GitHub/HX711/src",
+                    "f:/~GitHub/HX711/examples/HX711_basic_example",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/alberto/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_FEATHER328P",
+                "VERSION=0.7.5",
+                "DEBUG=1",
+                "F_CPU=8000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x239A",
+                "USB_PID=0x800C",
+                "USB_PRODUCT=\"Feather 328P\"",
+                "USB_MANUFACTURER=\"Adafruit\"",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "C:/Users/alberto/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
